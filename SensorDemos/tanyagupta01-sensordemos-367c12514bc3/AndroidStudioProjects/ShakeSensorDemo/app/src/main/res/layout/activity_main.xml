@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorTestActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="656dp"
+        android:text="@string/ui_shake_title"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/xval"
+        android:layout_width="393dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="533dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/yval"
+        android:layout_width="375dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xval" />
+
+    <TextView
+        android:id="@+id/zval"
+        android:layout_width="372dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yval" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
